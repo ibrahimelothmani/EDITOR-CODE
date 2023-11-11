@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7f1a6d4fe2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><button class="bn5">Back</button></a>
+            <hr>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form id="form">
+                <h1 class="cnt" align="center">Contact Me!</h1>
+                <table align="center">
+                    <tr>
+                        <td><label class="bn5">Nom :</label></td>
+                        <td><input class="bn5" type="text" id="name" required minlength="3"
+                                title="nom : minimum 3 caractères">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label class="bn5">Prénom :</label></td>
+                        <td><input class="bn5" type="text" id="lname" minlength="3"
+                                title="prenom : minimum 3 caractères"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="bn5">Adresse :</label></td>
+                        <td><input class="bn5" id="adr" rows="7" title="Adresse et code postale"></input></td>
+                    </tr>
+                    <tr>
+                        <td><label class="bn5">Num Tel :</label></td>
+                        <td><input class="bn5" type="number" id="nbr" minlength="8" maxlength="13" required
+                                title="Numéro telephone personnel"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label class="bn5">Message :</label></td>
+                        <td><textarea class="bn5" name="message" id="msg" cols="30" rows="10"
+                                title="Message"></textarea></td>
+                    </tr>
+                </table>
+                <div align="center">
+                    <button type="submit" class="bn5">Submit</button>
+                    <button type="reset" class="bn5">Reset</button>
+                </div>
+                <hr>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p align="right">Copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
